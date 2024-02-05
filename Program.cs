@@ -8,7 +8,7 @@ public class Program
     {
         //Console.Write("Enter a string: ");
         //string input = Console.ReadLine();
-        string input = "hello";
+        string input = "helloWorld";
         string hash = ComputeSha256Hash(input);
         Console.WriteLine($"The SHA256 hash of '{input}' is: {hash}");
     }
